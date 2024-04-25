@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadastro">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="Cadastre-se"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="328dp"
+        android:layout_height="228dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="32dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cadastro_icon"
+        android:src="@drawable/cadastro_img"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/cadastro_icon"
+       android:id="@+id/TopCadastro"
+       android:orientation="vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="32dp"
+        android:id="@+id/form_layout"
+        android:layout_below="@id/TopCadastro"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Nome_edit_text"
+            android:inputType="text"
+            android:hint="Nome"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email_edit_text"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password_edit_text"
+            android:inputType="textPassword"
+            android:hint="Senha"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Confirm_Password_edit_text"
+            android:inputType="textPassword"
+            android:hint="Confirme a Senha"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/Criar_Conta_btn"
+            android:text="Criar Conta"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/black"
+            android:textSize="16sp"/>
+
+        <ProgressBar
+            android:layout_width="24dp"
+            android:layout_height="64dp"
+            android:id="@+id/progress_bar_cad"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="12dp"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/form_layout"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Já tem uma conta?"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Entrar_Cadastro_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="  Entrar"
+            android:textColorLink=""/>
+    </LinearLayout>
+
+
+</RelativeLayout>

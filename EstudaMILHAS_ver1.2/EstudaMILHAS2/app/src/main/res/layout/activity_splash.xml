@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SplashColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="316dp"
+        android:layout_height="316dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/logosplash_icon"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:src="@drawable/EstudaMILHAS_icon" />
+<ProgressBar
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:indeterminateTint="@color/white"
+    android:layout_margin="16dp"/>
+
+
+</LinearLayout>

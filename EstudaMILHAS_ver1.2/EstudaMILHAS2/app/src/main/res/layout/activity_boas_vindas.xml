@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoasVindas"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/gray">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:src="@drawable/EstudaMILHAS_icon" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="288dp"
+        android:src="@drawable/amico" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:text="Bem-vindo ao EstudaMILHAS!"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:text="Estamos aqui para ajuda-lo a planejar seus estudos para que você complete seus objetivos com mais tranquilidade."
+
+
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:text="
+Avance em seus estudos e acumule milhas de conhecimento!
+"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="COMEÇAR"
+        android:backgroundTint="@color/My_Primary"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:id="@+id/START_btn"/>
+
+</LinearLayout>
