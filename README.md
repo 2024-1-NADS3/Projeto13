@@ -1,5 +1,5 @@
 # Projeto13
-Projeto 13
+Grupo 13 - EstudaMILHAS
 
 # FECAP - Fundação de Comércio Álvares Penteado
 
@@ -9,9 +9,9 @@ Projeto 13
 
 # Nome do Projeto
 
-## Nome do Grupo
+## EstudaMILHAS
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="">Rafael Pinto da Silva</a>, <a href="">Vinicius Burato</a>, <a href="">Victor Malzone Tonioli</a>, <a href=">Vinicius Massao</a>, <a href="">Felipe Ribeiro Almeida</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
 
