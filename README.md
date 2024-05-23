@@ -67,18 +67,12 @@ Há também 4 pastas que seguem da seguinte forma:
 Faça o Download do estudamilhas.apk no seu celular.
 Execute o APK e siga as instruções de seu telefone.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 <b>Windows:</b>
 
 Não há instalação! Apenas executável!
 Encontre o estudamilhas.exe na pasta executáveis e execute-o com Android Studio versão Iguana 2023.2.1 ou superior.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -92,11 +86,6 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQjw0ruyBhDuARIsANSZ3wrYLtTFjV-_FxJVbbbOZCB1x4SJfJ_aVr1MOAS7msOuAVycsdBUKsMaArYFEALw_wcB&gclsrc=aw.ds&hl=pt-br">Android Studio</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 🗃 Histórico de lançamentos
 
