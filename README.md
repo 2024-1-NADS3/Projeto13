@@ -23,7 +23,7 @@ Grupo 13 - EstudaMILHAS
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Descrição
 <br><br>
 O aplicativo EstudaMILHAS permite que os usuários programem suas rotinas de estudo de forma personalizada e facilita a gestão de horas complementares e estudos semanais. O aplicativo visa promover o aprendizado contínuo em qualquer fase da vida, não se limitando apenas a universitários. 
 <br><br>
@@ -82,7 +82,11 @@ Coloque código do prompt de comnando se for necessário
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Para abrir um projeto do Android Studio em outro computador, você precisa primeiro garantir que o projeto esteja salvo e que todos os arquivos necessários estejam incluídos. Você pode fazer isso exportando o projeto em um arquivo ZIP e copiando-o para o seu notebook\computador, ou usando um serviço de armazenamento em nuvem como o Google Drive ou o Dropbox para sincronizar o projeto entre os dois computadores.
+
+Depois de ter o projeto salvo e transferido para o seu notebook\computador, abra o Android Studio no seu notebook e selecione a opção "Open an existing Android Studio project" na tela inicial. Navegue até a pasta do projeto que você transferiu e selecione o arquivo "build.gradle" dentro dela. O Android Studio deve então importar o projeto e reconstruí-lo com base nas configurações do seu notebook\computador.
+
+Se o projeto não estiver aparecendo da mesma forma que estava no PC, pode ser que você precise atualizar as configurações do Android Studio em seu notebook para se adequar às configurações do PC. Para fazer isso, vá em File > Settings > Appearance & Behavior > System Settings > Android SDK e certifique-se de que todas as versões do Android necessárias para o projeto estão instaladas.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
