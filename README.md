@@ -11,7 +11,7 @@ Grupo 13 - EstudaMILHAS
 
 ## EstudaMILHAS
 
-## Integrantes: <a href="">Rafael Pinto da Silva</a>, <a href="">Vinicius Burato</a>, <a href="">Victor Malzone Tonioli</a>, <a href=">Vinicius Massao</a>, <a href="">Felipe Ribeiro Almeida</a>
+## Integrantes: <a href="">Rafael Pinto da Silva</a>, <a href="">Vinicius Burato</a>, <a href="">Victor Malzone Tonioli</a>, <a href="">Vinicius Massao</a>, <a href="">Felipe Ribeiro Almeida</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
 
@@ -25,9 +25,9 @@ Grupo 13 - EstudaMILHAS
 
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+O aplicativo EstudaMILHAS permite que os usuários programem suas rotinas de estudo de forma personalizada e facilita a gestão de horas complementares e estudos semanais. O aplicativo visa promover o aprendizado contínuo em qualquer fase da vida, não se limitando apenas a universitários. 
 <br><br>
-May the force be with you!
+O EstudaMILHAS oferece uma experiência abrangente e motivadora com recursos como a definição de metas de estudo e colaboração com instituições de ensino. Além disso, sistemas que monitoram a frequência de uso e oferecem recompensas, como "milhas de aprendizagem", incentivam os usuários a permanecerem engajados em sua jornada educacional.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -40,8 +40,7 @@ May the force be with you!
 |-->executáveis<br>
   &emsp;|-->windows<br>
   &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
+ |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
   &emsp;|-->Frontend<br>
@@ -65,7 +64,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
+Faça o Download do estudamilhas.apk no seu celular.
 Execute o APK e siga as instruções de seu telefone.
 
 ```sh
@@ -75,16 +74,11 @@ Coloque código do prompt de comnando se for necessário
 <b>Windows:</b>
 
 Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+Encontre o estudamilhas.exe na pasta executáveis e execute-o com Android Studio versão Iguana 2023.2.1 ou superior.
 
 ```sh
 Coloque código do prompt de comnando se for necessário
 ```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -92,7 +86,7 @@ Descreva como instalar todas as dependências para desenvolvimento e como rodar 
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://godotengine.org/download">GODOT</a>
+-<a href="https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQjw0ruyBhDuARIsANSZ3wrYLtTFjV-_FxJVbbbOZCB1x4SJfJ_aVr1MOAS7msOuAVycsdBUKsMaArYFEALw_wcB&gclsrc=aw.ds&hl=pt-br">Android Studio</a>
 
 ```sh
 make install
