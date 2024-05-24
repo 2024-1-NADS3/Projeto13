@@ -76,7 +76,7 @@ O EstudaMILHAS oferece uma experiência abrangente e motivadora com recursos com
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
+|-->EstudaMilhasOG<br>
   &emsp;|-->windows<br>
   &emsp;|-->android<br>
  |-->imagens<br>
