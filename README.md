@@ -29,6 +29,27 @@ O aplicativo EstudaMILHAS permite que os usuários programem suas rotinas de est
 O EstudaMILHAS oferece uma experiência abrangente e motivadora com recursos como a definição de metas de estudo e colaboração com instituições de ensino. Além disso, sistemas que monitoram a frequência de uso e oferecem recompensas, como "milhas de aprendizagem", incentivam os usuários a permanecerem engajados em sua jornada educacional.
 <br><br>
 
+## Objetivos
+
+* Gestão Personalizada do Tempo: Permitir que o usuário configure suas horas complementares e defina seus próprios limites de estudo, garantindo autonomia e controle sobre sua rotina.
+
+* Planejamento Eficaz: Fornecer ferramentas para a criação de um plano de estudos personalizado e flexível, adaptado às necessidades e objetivos de cada indivíduo.
+
+* Acompanhamento Detalhado: Monitorar o progresso do usuário com relatórios e estatísticas personalizáveis, evidenciando seu desenvolvimento e incentivando a perseverança.
+
+* Experiência Inclusiva: Desenvolver um aplicativo intuitivo e acessível para todos os públicos, incluindo pessoas com deficiência visual ou outras necessidades especiais.
+
+* Estímulo ao Aprendizado Contínuo: Incentivar o aprendizado ao longo da vida e o desenvolvimento de habilidades essenciais para o mercado de trabalho, promovendo a cidadania e o desenvolvimento pessoal.
+
+## ODS
+  A concepção deste projeto foi dada com base na da ODS-4 Educação de qualidade e ODS-8 Trabalho Decente e Crescimento, mais especificamente os pontos a seguir:
+
+  4.4 Até 2030, aumentar substancialmente o número de jovens e adultos que tenham habilidades relevantes, inclusive competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo
+
+  4.5 Até 2030, eliminar as disparidades de gênero na educação e garantir a igualdade de acesso a todos os níveis de educação e formação profissional para os mais vulneráveis, incluindo as pessoas com deficiência, povos indígenas e as crianças em situação de vulnerabilidade
+
+  8.6 Até 2020, reduzir substancialmente a proporção de jovens sem emprego, educação ou formação
+
 ## Funcionalidades
 
   * Registro de tarefas
