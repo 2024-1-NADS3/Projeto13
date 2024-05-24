@@ -53,7 +53,7 @@ public class Signup extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            String url = "https://67s4d4-3000.csb.app";
+            String url = "https://zz4c4p-3000.csb.app";
 
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.POST,
