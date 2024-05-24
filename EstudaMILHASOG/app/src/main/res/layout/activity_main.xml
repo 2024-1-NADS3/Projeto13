@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icone_icon" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="188dp"
+            android:src="@drawable/login_img"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Usuário"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:id="@+id/user"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Senha"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/Password_input"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:onClick="loginClick"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:id="@+id/login_btn"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:onClick="signUp"
+            android:id="@+id/Signup"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="Esqueceu sua senha? "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Clique Aqui."
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/purple_500" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
