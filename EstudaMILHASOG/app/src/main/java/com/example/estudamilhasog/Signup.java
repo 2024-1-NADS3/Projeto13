@@ -1,93 +1,95 @@
 package com.example.estudamilhasog;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Room;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class Signup extends AppCompatActivity {
 
     private EditText firstname, user, pass, lastname;
-    private AppDatabase db;
-
+    private RequestQueue requestQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        firstname = (EditText) findViewById(R.id.Nome_edit_text);
-        lastname = (EditText) findViewById(R.id.Sobrenome_edit_text);
-        pass = (EditText) findViewById(R.id.Password_edit_text);
-        user = (EditText) findViewById(R.id.Email_edit_text);
+        firstname = findViewById(R.id.Nome_edit_text);
+        lastname = findViewById(R.id.Sobrenome_edit_text);
+        pass = findViewById(R.id.Password_edit_text);
+        user = findViewById(R.id.Email_edit_text);
 
-        //Connect to db
-        db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "app-db").build();
+        // Initialize request queue
+        requestQueue = Volley.newRequestQueue(this);
     }
 
-    private void output(int id, String result){
-        View view = findViewById(id);
-        TextView textView = (TextView) view;
-        textView.setText(result);
-    }
+    public void signUp(View v) {
+        final String userEmail = user.getText().toString();
+        final String passwordText = pass.getText().toString();
+        final String firstName = firstname.getText().toString();
+        final String lastName = lastname.getText().toString();
 
-    private String input(int id){
-        View view = findViewById(id);
-        EditText editText = (EditText) view;
-        String str = editText.getText().toString();
-        return str;
-    }
+        if (userEmail.isEmpty() || passwordText.isEmpty() || firstName.isEmpty() || lastName.isEmpty()) {
+            Toast.makeText(getApplicationContext(), "Todos os campos são obrigatórios!", Toast.LENGTH_SHORT).show();
+        } else {
+            // Prepare the JSON object to be sent to the server
+            JSONObject userJson = new JSONObject();
+            try {
+                userJson.put("email", userEmail);
+                userJson.put("senha", passwordText);
+                userJson.put("nome", firstName);
+                userJson.put("sobrenome", lastName);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
 
-    public void onSignUp(View view){
-        Intent i = new Intent(this, HomeScreen.class);
-        startActivity(i);
-    }
+            String url = "https://67s4d4-3000.csb.app";
 
-    /*
-       Inscreva o usuário com dados da entrada de edit text input
-     */
-    public void signUp(View v){
-        final String userEmail = user.getText().toString(); //adiciona do elemento view
-        final String passwordText = pass.getText().toString(); //adiciona do elemento view
-
-        if(userEmail.isEmpty() || passwordText.isEmpty()){
-            Toast.makeText(getApplicationContext(), "Campos Obrigatórios!", Toast.LENGTH_SHORT).show();
-        }else{
-            //Perform Query to DB
-            final UserDao userDao = db.userDao();
-            Log.i("DEBUG","got the USER DAO");
-            Thread tr = new Thread(new Runnable(){
-                @Override
-                public void run(){
-                    Log.i("DEBUG", "run thread");
-
-                    //Register user to Data base
-                    User user = new User(userEmail, passwordText, firstname.getText().toString(), lastname.getText().toString());
-                    Log.i("DEBUG", "User Created, name: " + user.firstName);
-                    userDao.register(user);
-                    Log.i("DEBUG", "Registered User");
-                    if(false){
-                        runOnUiThread(new Runnable(){
-                            @Override
-                            public void run(){
-                                Toast.makeText(getApplicationContext(), "Invalid Credentials", Toast.LENGTH_SHORT).show();
+            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+                    Request.Method.POST,
+                    url,
+                    userJson,
+                    new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            try {
+                                int statusCode = response.getInt("statusCode");
+                                if (statusCode == 200) {
+                                    // Abre a tela inicial
+                                    startActivity(new Intent(Signup.this, HomeScreen.class)
+                                            .putExtra("email", userEmail));
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "Falha ao registrar: " + response.getString("message"), Toast.LENGTH_SHORT).show();
+                                }
+                            } catch (JSONException e) {
+                                e.printStackTrace();
                             }
-                        });
-                    }else{
-                        ////Abre a tela inicial
-                        startActivity(new Intent(Signup.this, HomeScreen.class)
-                                //Passa pelo email do usuário
-                                .putExtra("email",userEmail));
+                        }
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(getApplicationContext(), "Erro: " + error.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
                     }
-                }
-            });
-            tr.start();
+            );
+
+            // Add the request to the RequestQueue
+            requestQueue.add(jsonObjectRequest);
         }
+    }
+}
+
     }
 
 }
