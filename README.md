@@ -66,6 +66,14 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
+## Design
+ 1. Figma:
+      Descrição: plataforma online de criação de interfaces, wireframes e protótipos. Seu papel é oferecer recursos de design de telas para aplicações variadas, permitindo que times de Design trabalhem em conjunto no mesmo projeto remotamente e simultaneamente.
+      Uso: Utilizado no projeto para o planejamento de design visual, testes de navegação e intuitividade do aplicativo.
+    link: <a href="https://www.figma.com/design/JrNI05HlU6qwRrKWJVzUDe/Untitled-(Copy)?node-id=0-1&t=CL2NCjbyeHC3Pwqw-0">Figma</a>
+    
+      
+
 ## 🛠 Instalação
 
 <b>Android:</b>
