@@ -13,7 +13,7 @@ Grupo 13 - EstudaMILHAS
 
 ## Integrantes: <a href="">Rafael Pinto da Silva</a>, <a href="">Vinicius Burato</a>, <a href="">Victor Malzone Tonioli</a>, <a href="">Vinicius Massao</a>, <a href="">Felipe Ribeiro Almeida</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/?original_referer=https%3A%2F%2Fgithub.com%2F2024-1-NADS3%2FProjeto1%3Ftab%3Dreadme-ov-file">Adriano Felix Valente</a>
 
 ## Descrição
 
