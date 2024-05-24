@@ -185,8 +185,10 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
+1. <https://www.postman.com>
 2. <https://www.youtube.com/watch?v=gANin2X_GnE>
 3. <https://www.youtube.com/watch?v=LzRZhOSTQ2I&list=PLZCMLqQ7FqfSDyIMj9SpycBt4sRZX_WuF>
 4. <https://www.sqlite.org/docs.html>
+5. <https://www.figma.com>
+6. <https://github.com/jifunks/taskrpg>
 
