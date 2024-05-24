@@ -43,26 +43,31 @@ O EstudaMILHAS oferece uma experiência abrangente e motivadora com recursos com
  
  1.Android Studio:
   Descrição: Android Studio é o ambiente de desenvolvimento integrado (IDE) oficial para o desenvolvimento de aplicativos Android.
+  
   Uso: Utilizado para desenvolver o aplicativo Android, incluindo a interface do usuário (UI), lógica de aplicação e integração com o backend.
   
  2.Java:
   Descrição: Java é uma linguagem de programação orientada a objetos amplamente usada para o desenvolvimento de aplicativos Android.
+  
   Uso: Utilizada para escrever a lógica do aplicativo Android, incluindo a interação com o backend e o gerenciamento da UI.
 
   ## Backend
 
   1.Node.js:
   Descrição: Node.js é um ambiente de execução JavaScript que permite executar código JavaScript no lado do servidor.
+  
   Uso: Utilizado para criar o servidor backend que lida com as solicitações HTTP, gerencia a lógica do aplicativo e interage com o banco de dados.
   
   2.SQLite:
   Descrição: SQLite é um banco de dados SQL leve, autocontido e embutido.
+  
   Uso: Utilizado como o banco de dados do projeto para armazenar informações sobre usuários e tarefas.
 
   ## Outras Ferramentas
   
   1.Postman:
   Descrição: Postman é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.
+  
   Uso: Utilizado para testar a comunicação de envio de dados e formulários dentre a aplicação e o banco de dados.
   
 
