@@ -23,12 +23,18 @@ Grupo 13 - EstudaMILHAS
 </p>
 
 
-Descrição
 <br><br>
 O aplicativo EstudaMILHAS permite que os usuários programem suas rotinas de estudo de forma personalizada e facilita a gestão de horas complementares e estudos semanais. O aplicativo visa promover o aprendizado contínuo em qualquer fase da vida, não se limitando apenas a universitários. 
 <br><br>
 O EstudaMILHAS oferece uma experiência abrangente e motivadora com recursos como a definição de metas de estudo e colaboração com instituições de ensino. Além disso, sistemas que monitoram a frequência de uso e oferecem recompensas, como "milhas de aprendizagem", incentivam os usuários a permanecerem engajados em sua jornada educacional.
 <br><br>
+
+## Funcionalidades
+
+  * Registro de tarefas
+  * Comandos de modificação e exclusão de tarefas
+  * Notificação de deadlines
+  * Opções de compartilhamento e redirecionamento para cursos
 
 ## 🛠 Estrutura de pastas
 
