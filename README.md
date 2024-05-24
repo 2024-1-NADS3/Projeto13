@@ -106,13 +106,13 @@ Execute o APK e siga as instruções de seu telefone.
 <b>Windows:</b>
 Não há instalação! Apenas executável!
 Encontre o estudamilhas.exe na pasta executáveis e execute-o com Android Studio versão Iguana 2023.2.1 ou superior.
-## 💻 Configuração para Desenvolvimento
+##  Configuração para Desenvolvimento 💻
 Para abrir um projeto do Android Studio em outro computador, você precisa primeiro garantir que o projeto esteja salvo e que todos os arquivos necessários estejam incluídos. Você pode fazer isso exportando o projeto em um arquivo ZIP e copiando-o para o seu notebook\computador, ou usando um serviço de armazenamento em nuvem como o Google Drive ou o Dropbox para sincronizar o projeto entre os dois computadores.
 Depois de ter o projeto salvo e transferido para o seu notebook\computador, abra o Android Studio no seu notebook e selecione a opção "Open an existing Android Studio project" na tela inicial. Navegue até a pasta do projeto que você transferiu e selecione o arquivo "build.gradle" dentro dela. O Android Studio deve então importar o projeto e reconstruí-lo com base nas configurações do seu notebook\computador.
 Se o projeto não estiver aparecendo da mesma forma que estava no PC, pode ser que você precise atualizar as configurações do Android Studio em seu notebook para se adequar às configurações do PC. Para fazer isso, vá em File > Settings > Appearance & Behavior > System Settings > Android SDK e certifique-se de que todas as versões do Android necessárias para o projeto estão instaladas.
 Para abrir este projeto você necessita das seguintes ferramentas:
 -<a href="https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQjw0ruyBhDuARIsANSZ3wrYLtTFjV-_FxJVbbbOZCB1x4SJfJ_aVr1MOAS7msOuAVycsdBUKsMaArYFEALw_wcB&gclsrc=aw.ds&hl=pt-br">Android Studio</a>
-## 🗃 Histórico de lançamentos ⏰
+##  Histórico de lançamentos 🗃
 A cada atualização os detalhes devem ser lançados aqui.
 * 0.1.0 - 25/03/2024
     * MUDANÇA: Tela de Login finalizada
